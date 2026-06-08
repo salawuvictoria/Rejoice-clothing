@@ -1,0 +1,192 @@
+   *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   }
+body{
+    background-color: #f8f5f0 ;
+    color: #222;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 4rem;
+    background-color: #1F2A44; /* Moved background color here so the whole header is colored */
+    padding: 0 2rem; /* Adds a bit of breathing room on the far left and right */
+    z-index: 1000; /* Keeps header on top of your sections */
+}
+
+/* Style the text color for your logo if needed */
+.logo h2 {
+    color: white;
+    margin: 0;
+}
+
+/* The nav container just needs to line up its links */
+nav ul {
+    display: flex;
+    gap: 2rem; /* Using rem/px is safer than percentages for consistent spacing */
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Make sure your list links are white and readable */
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+section{
+    align-items: center;
+    text-align: center;
+}
+.home{
+    margin-top: 0px;
+   background: url('https://images.unsplash.com/photo-1558769132-cb1aea458c5e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGZhc2hpb258ZW58MHx8MHx8fDA%3D') no-repeat center center / cover;
+    color:white;
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.homesection{
+    align-items: center;
+    color: #1F2A44;
+    font-size: 30px;
+
+}
+.homesection p{
+    font-weight: bold;
+}
+
+.about{
+    height:100vh ;
+}
+h2{
+    
+    text-align: center;
+}
+.image{
+    width: 200px;
+
+}
+.image3{
+    width: 200px;
+    height: 270px;
+}
+.collection{
+    width: 250px;
+    display: inline-block;
+    vertical-align: top;
+    line-height: 20px;
+}
+.servicesection{
+    display: flex;
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.contactsection{
+    background-color: #1F2A44;
+    color: white;
+    height: 200px;
+}
+.contactsection:hover{
+    color: #1F2A44;
+    background-color: #c6a748;
+}
+.contactsection ul li{
+    list-style: none;
+    display: flex;
+    justify-content:center;
+    flex-direction: row;
+}
+
+body{
+    
+    height: 100vh;
+}
+.wholecontainer{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 300px;
+    margin-top: 150px;
+    margin-left:550px ;
+    column-gap: 20px;
+    
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    gap: 20px;
+    width: 100%;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    color: white;
+}
+input{
+    height: 20px;
+    border-radius: 5px;
+    width: 200px;
+}
+.wholecontainer button{
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+    
+    
+
+}
+.link{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    padding-left: 50px;
+    max-width: 100%;
+    gap: 40px;
+
+    
+
+}    
+
+.link a {
+    color: white;
+}
+.button{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-right: 130px;
+    margin-top: 10px;
+    
+}
+.button button{
+    background-color: white;
+    color: black;
+    width: 70px;
+    height: 30px;
+    
+    padding-top: 5px;
+}
+
+
